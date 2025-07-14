@@ -1,0 +1,6 @@
+if SHIELD_DACTYLMANUFORM46
+
+config ZMK_KEYBOARD_NAME
+    default "Dactyl46"
+
+endif
