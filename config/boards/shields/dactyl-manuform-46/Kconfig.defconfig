@@ -1,16 +1,23 @@
 if SHIELD_DACTYLMANUFORM46_LEFT
 
+config ZMK_SPLIT
+    default y
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
 config ZMK_KEYBOARD_NAME
     default "Dactyl46"
 
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y  
 endif
 
-if SHIELD_DACTYLMANUFORM46_LEFT || SHIELD_DACTYLMANUFORM46_RIGHT
+
+if SHIELD_DACTYLMANUFORM46_RIGHT
 
 config ZMK_SPLIT
     default y
 
+config ZMK_SPLIT_ROLE_CENTRAL
+    default n
 
 endif
