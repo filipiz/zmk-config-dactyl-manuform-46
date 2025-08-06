@@ -1,4 +1,4 @@
-#include "DactylManuform46.dtsi" 
+#include "dactylmanuform46.dtsi" 
 
 &kscan0 {
     col-gpios

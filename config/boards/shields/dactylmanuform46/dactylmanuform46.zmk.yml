@@ -1,5 +1,5 @@
 file_format: "1"
-id: DactylManuform46
+id: dactylmanuform46
 name: Dactyl Manuform 46
 type: shield
 requires: [pro_micro]
@@ -7,5 +7,5 @@ exposes: []
 features:
   - keys
 siblings:
-  - DactylManuform46_left
-  - DactylManuform46_right
+  - dactylmanuform46_left
+  - dactylmanuform46_right
