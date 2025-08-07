@@ -8,6 +8,11 @@
 #define NAV     2
 #define FNC     3
 
+&mt {
+    tapping-term-ms = <230>;
+};
+
+
 / {  
     keymap {
         compatible = "zmk,keymap";
@@ -17,7 +22,7 @@
                 &kp Q  &kp W    &kp F       &kp P       &kp B            &kp J      &kp L       &kp U       &kp Y   &kp SEMI
                 &kp A  &kp R    &mt RCTRL S &mt LSHFT T &mt LALT G       &mt LALT M &mt RSHFT N &mt RCTRL E &kp I   &kp O
                 &kp Z  &kp X    &kp C       &kp D       &kp V            &kp K      &kp H       &kp COMMA   &kp DOT &kp FSLH
-                       &trans   &kp MINUS   &kp RET     &kp ESC          &kp BSPC   &kp SPACE   &kp EQUAL   &trans
+                       &trans   &kp MINUS   &kp RET     &kp ESC          &kp BSPC   &kp SPACE   &kp EQUAL   &kp TAB
                        &kp RALT &mo FNC     &kp LGUI    &mo NAV          &mo SYM    &kp RGUI    &mo FNC     &kp RALT
             >;
         }; 
@@ -27,7 +32,7 @@
                 &kp N1    &kp N2   &kp N3    &kp N4   &kp N5          &kp N6    &kp N7    &kp N8    &kp N9    &kp N0
                 &kp EXCL  &kp AT   &kp HASH  &kp DLLR &kp PRCNT       &kp CARET &kp AMPS  &kp STAR  &kp APOS  &kp DQT
                 &kp TILDE &kp PIPE &kp LBKT  &kp LPAR &kp LBRC        &kp RBRC  &kp RPAR  &kp RBKT  &kp GRAVE &kp BSLH
-                          &kp LT   &kp UNDER &kp RET  &kp ESC         &kp BSPC  &kp SPACE &kp PLUS  &kp GT
+                          &kp LT   &kp UNDER &kp RET  &kp ESC         &kp DEL   &kp SPACE &kp PLUS  &kp GT
                           &trans   &trans    &trans   &trans          &trans    &trans    &trans    &trans
             >;
         };
